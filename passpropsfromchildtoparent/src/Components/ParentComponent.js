@@ -1,5 +1,5 @@
 import React,{useState} from 'react'
-import ChildChomponent from './ChildChomponent';
+import ChildComponent from './ChildChomponent';
 
 const ParentComponent = () => {
     const[message,setMessage]=useState();

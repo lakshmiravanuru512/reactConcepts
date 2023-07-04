@@ -1,6 +1,6 @@
 import React from 'react'
 
-const ChildChomponent = ({handleMessage}) => {
+const ChildComponent = ({handleMessage}) => {
     const handleClick=()=>{
         handleMessage("Hello From Child")
     }
