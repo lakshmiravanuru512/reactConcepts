@@ -10,7 +10,7 @@ const ParentComponent = () => {
     <div>
         <h1>ParentComponent</h1>
         <p>Message From Child:{message}</p>
-        <ChildChomponent handleMessage={handleMessage}/>
+        <ChildComponent handleMessage={handleMessage}/>
     </div>
   )
 }
